@@ -2,9 +2,6 @@
 General Functionality
 ************************/
 
-//a stricter parse float function found at:
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
-
 function filterFloat(value) {
     //filter out incorrectly formatted numbers (Correct: -2, +2, 22.222, etc.)
     if (/^(\-|\+)?([0-9]+(\.[0-9]+)?|Infinity)$/.test(value))
@@ -148,7 +145,7 @@ $("#calcFactorial").click(function () {
         $(this).next().replaceWith("<p class='light-blue-font'>Please enter only integers. Try again.</p>");
     } else {
         //display the resulting factorial product
-        $(this).next().replaceWith("<p class='light-blue-font'>Answer: <span class='big-white-font'>" + userFactorial + " Factorial (or " + userFactorial + "!) is " + factorial + "</span>");
+        $(this).next().replaceWith("<p class='light-blue-font'>Answer: <span class='big-white-font'>" + userFactorial + " Factorial (or " + userFactorial + "!) is " + factorial + "</span></p>");
     }
 });
 
