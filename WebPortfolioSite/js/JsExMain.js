@@ -79,7 +79,7 @@ $("#btnGreatest").click(function () {
     var greatest = Math.max(num1, num2, num3, num4, num5, num6);
     //check if greatest is a numeric value
     if (isNaN(greatest) == true) {
-        $(this).next().replaceWith("<p>Oops. Every box must contain a valid number. Try again!</p>");
+        $(this).next().replaceWith("<p class='light-blue-font'>Oops. Every box must contain a valid number. Try again!</p>");
     } else {
         //display highest number
         $(this).next().replaceWith("<p class='light-blue-font'><span class='big-white-font'>" + greatest + "</span> is the highest number</p>");
