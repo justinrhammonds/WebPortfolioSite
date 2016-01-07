@@ -22,7 +22,7 @@
 	top:114px;
 	padding-left:17px;
 	padding-top:17px;
-	background-color:#ffffff;
+	background-color:#fff;
 	color:#444444;
 	border-top-right-radius:15px;
 	border-bottom-right-radius:15px;
@@ -87,12 +87,12 @@
 
 .blog-content p {
 	padding-right:20px;
-	color:#FFFFFF;
+	color:#fff;
 }
 
 .blog-sidebar {
 	padding-top:25px;
-	color:#FFFFFF;
+	color:#fff;
 }
 
 .blog-sidebar img {
@@ -122,7 +122,7 @@
 
 .blog-about-xs {
 	margin-bottom:25px;
-	color:#FFFFFF;
+	color:#fff;
 }
 
 .blog-about-xsimg {
@@ -138,7 +138,7 @@
 ------------------------------*/
 #comments {
 	background-color:#444444;
-	color:#FFFFFF;
+	color:#fff;
 }
 
 .comments {
@@ -204,7 +204,7 @@
 	background-color:#594157;
 	text-align:center;
 	padding-top:25px;
-	color:#FFFFFF
+	color:#fff
 }
 
 .portfolio-text  {
@@ -245,18 +245,18 @@ p {
 
 h2 {
 	margin:0 0 20px;
-	color:#FFFFFF;
+	color:#fff;
 	font-family:'Fjalla One', sans-serif;
 	font-size:56px;
 }
 
 h3 {
-	color:#FFFFFF;
+	color:#fff;
 	font-family:'Fjalla One', sans-serif;
 }
 
 h4 {
-	color:#FFFFFF;
+	color:#fff;
 	font-family:'Fjalla One', sans-serif;
 	margin-top:0;
 }
@@ -264,7 +264,7 @@ h4 {
 .content-first {
 	background-color:#594157;
 	padding:80px 0;
-	color:#FFFFFF;
+	color:#fff;
 	border-top:8px solid rgba(0,0,0,0.1);
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
 }
@@ -272,7 +272,7 @@ h4 {
 .content-second {
 	background-color:#75c374;
 	padding:80px 0;
-	color:#FFFFFF;
+	color:#fff;
 	border-top:8px solid rgba(0,0,0,0.1);
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
 	text-align:center;
@@ -322,7 +322,7 @@ h4 {
 }
 
 .scroll-up:hover { 
-	background-color:#FFFFFF;
+	background-color:#fff;
 	border-color:rgba(0,0,0,0.2);
 	padding-top:0px;
 	color: #faaf5c;
@@ -336,8 +336,8 @@ h4 {
 .btn:hover,
 .btn:focus {
 	font-family:'Fjalla One', sans-serif;
-	border-bottom:4px solid #FFFFFF;
-	color:#FFFFFF;
+	border-bottom:4px solid #fff;
+	color:#fff;
 	transition-duration:0.4s;
 }
 
@@ -347,7 +347,7 @@ h4 {
 }
 
 .btn-footer {
-	background-color:#FFFFFF;
+	background-color:#fff;
 	color:#594157;
 	margin-left:5px;
 }
@@ -356,11 +356,10 @@ h4 {
 	background-color:#594157;
 }
 
-
 .btn-primary:hover,
 .btn-primary:focus {
 	background-color:#f28659;
-	color:#ffffff;
+	color:#fff;
 	border-color:#df5f29;
 }
 
@@ -372,8 +371,8 @@ h4 {
 
 .btn-reference:hover,
 .btn-reference.btn-active {
-	border:1px solid #FFFFFF;
-	border-bottom:3px solid #FFFFFF;
+	border:1px solid #fff;
+	border-bottom:3px solid #fff;
 	color:#70afb0;
 }
 
@@ -392,7 +391,7 @@ h4 {
 
 .alert {
 	border:0;
-	color:#ffffff;
+	color:#fff;
 }
 
 .alert-success {
@@ -432,11 +431,11 @@ h4 {
 }
 
 .navbar-default .navbar-brand:hover {
-	color:#FFFFFF;
+	color:#fff;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color:#FFFFFF;
+	color:#fff;
 	font-family:'Fjalla One', sans-serif;
 	margin-top:6px;
 	font-size:14px;
@@ -502,7 +501,7 @@ header {
 
 .brands > li > a {
 	background-color:transparent;
-	color:#FFFFFF;
+	color:#fff;
 	border-top:3px solid #70afb0;
 	transition-duration:0.2s;
 }
@@ -536,7 +535,7 @@ header {
 }
 
 #about h3 {
-	border-bottom:3px solid #FFFFFF;
+	border-bottom:3px solid #fff;
 	padding-bottom:5px;
 	max-width:150px;
 }
@@ -544,7 +543,7 @@ header {
 
 #about .brands > li > a {
 	background-color:transparent;
-	color:#FFFFFF;
+	color:#fff;
 	transition-duration:0.4s;
 }
 
@@ -559,7 +558,7 @@ header {
 	background-color:#70afb0;
 	border-radius:6px;
 	padding:7px 0;
-	color:#FFFFFF;
+	color:#fff;
 	height:135px;
 }
 
@@ -650,7 +649,7 @@ header {
 }
 
 .timeline {
-    border-left:3px solid #FFFFFF;
+    border-left:3px solid #fff;
     margin-left:110px;
     padding-left:0px;
 }
@@ -744,7 +743,7 @@ header {
 }
 
 #showcase h4 {
-	color:#FFFFFF;
+	color:#fff;
 	margin-top:15px;
 }
 
@@ -777,7 +776,7 @@ header {
 }
 
 .showcase-text .showcase-button i {
-	color:#FFFFFF;
+	color:#fff;
 }
 
 #carousel-reference {
@@ -963,7 +962,7 @@ blockquote footer {
 
 .cs-style-4 figcaption a:hover {
 	color:#faaf5c;
-	background-color:#ffffff;
+	background-color:#fff;
 }
 
 /*------------------------------
@@ -1028,7 +1027,7 @@ blockquote footer {
 
 .blog-post .blog-info > a:hover {
 	background-color:#faaf5c;
-    color:#ffffff;
+    color:#fff;
 	font-weight:bold;
 }
 
@@ -1115,7 +1114,7 @@ blockquote footer {
 
 #pricing .pricing-table:hover .pricing-headline,
 #pricing .pricing-table.active .pricing-headline {
-	background-color:#ffffff;
+	background-color:#fff;
 }
 
 #pricing .pricing-table:hover .pricing-headline h3,
@@ -1126,7 +1125,7 @@ blockquote footer {
 #pricing .pricing-table:hover .prize,
 #pricing .pricing-table.active .prize {
 	background-color:#594157;
-	color:#ffffff;
+	color:#fff;
 }
 
 /*------------------------------
@@ -1218,7 +1217,7 @@ blockquote footer {
 #contact .form-control {
 	box-shadow:none;
 	border-radius:5px;
-	background-color:#FFFFFF;
+	background-color:#fff;
 	border:0;
 	margin-bottom:28px;
 	height:38px;
@@ -1239,7 +1238,7 @@ blockquote footer {
 #contact .contact-info {
 	background-color:#75c374;
 	border-radius:5px;
-	color:#FFFFFF;
+	color:#fff;
 	padding:0 12px;
 	text-align:left;
 }
@@ -1287,7 +1286,7 @@ blockquote footer {
     font-family: 'Fjalla One', sans-serif; 
 	text-align:center;
 	padding:40px 0;
-	color:#FFFFFF;
+	color:#fff;
 	border-top:8px inset #333;
 	border-top:8px solid rgba(0,0,0,0.1);
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
@@ -1301,7 +1300,7 @@ blockquote footer {
 }
 
 #footer .brands li a:hover {
-	color:#FFFFFF;
+	color:#fff;
 	background-color:#70afb0;
 }
 
@@ -1313,9 +1312,6 @@ blockquote footer {
  MODALS
 ------------------------------*/
 
-/*#JSExercises {
-  position: absolute;
-}*/
 #JsEx-header {
     background-color: #444444;
 }
@@ -1325,7 +1321,7 @@ blockquote footer {
 }
 
 .modal p {
-    color: #fff;
+
 }
 
 .modal .nav-link {
@@ -1335,11 +1331,20 @@ blockquote footer {
 
 .modal .nav-link:hover,
 .modal .nav-link:active {
-    color: #fff;
+    color: #ffffff;
 }
 
 .modal input {
     color: #50797a;
+}
+
+.light-blue-font {
+    color: #70afb0;
+}
+
+.big-white-font {
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 
@@ -1561,7 +1566,7 @@ blockquote footer {
 		padding:3px 0 0;
 		height:50px;
 		width:50px;
-		color:#FFFFFF;
+		color:#fff;
 		font-size:24px;
 	}
 	
