@@ -219,6 +219,8 @@
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\vertical-carousel.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="image\Asu_blocka_logo.png" />
+    <Content Include="image\coderfoundry-logo.png" />
     <Content Include="image\ico1.png" />
     <Content Include="image\ico3.png" />
     <Content Include="image\ico4.png" />
@@ -227,7 +229,9 @@
     <Content Include="image\image_01.png" />
     <Content Include="image\image_02.png" />
     <Content Include="image\jonathan.png" />
+    <Content Include="image\Justin-head.svg" />
     <Content Include="image\macbook.png" />
+    <Content Include="image\portfolioscreenshot.png" />
     <Content Include="image\ProfileofJustin.svg" />
     <Content Include="image\ProfilePic.svg" />
     <Content Include="image\ref1.png" />
@@ -238,6 +242,7 @@
     <Content Include="image\ref6.png" />
     <Content Include="image\suzanne.png" />
     <Content Include="image\tom.png" />
+    <Content Include="image\Treehouse_%28company%29_logo.svg.png" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\creative-brands.js" />
@@ -312,6 +317,10 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="justin-hammonds-resume.pdf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="Properties\PublishProfiles\jhammonds - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\jhammonds - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
