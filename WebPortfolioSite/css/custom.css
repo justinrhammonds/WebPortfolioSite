@@ -534,14 +534,14 @@ blockquote footer {
 	content: 'by ';
 }
 
-.grid figcaption a {
+/*.grid figcaption a {
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
 	background: #ed4e6e;
 	color: #fff;
-}
+}*/
 
 /* Caption Style 4 */
 .cs-style-4 li {
@@ -558,10 +558,6 @@ blockquote footer {
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
-
-/*.cs-style-4 figure > div {
-	overflow: hidden;
-}*/
 
 .no-touch .cs-style-4 figure:hover div,
 .cs-style-4 figure.cs-hover div {
@@ -599,10 +595,6 @@ blockquote footer {
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
-}
-
-.cs-style-4 figcaption a:hover {
-	background-color:#df5f29;
 }
 
 #portfolio {
@@ -1340,7 +1332,6 @@ modal {
 
 @media (max-width:548px) {
 	
-	
 	.timeline {
 		margin:25px 0 0 245px;
 	}
@@ -1429,8 +1420,9 @@ modal {
 		width: 280px;
 	}
 
+    .cs-style-4 .portfoliofigure,
     .cs-style-4 figcaption,
-    .cs-style-4 .item-box {
+    .cs-style-4 .motion-div {
         height:180px;
     }
 
@@ -1450,4 +1442,5 @@ modal {
 	#blog-header i {
 		font-size:28px;
 	}
+
 }
