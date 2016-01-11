@@ -804,13 +804,10 @@ modal {
     color: #fff;
 }
 
-.light-blue-font {
-    color: #70afb0;
-}
-
 .big-white-font {
     color: #fff;
     font-family: 'Fjalla One', sans-serif;
+    font-size:1em;
 }
 
 .screenshot {

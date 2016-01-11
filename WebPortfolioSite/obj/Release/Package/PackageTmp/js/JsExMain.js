@@ -27,12 +27,9 @@ var num5;
 var num6;
 //on user input (after keyup), store values with filterFloat()
 // NOTE: I don't use parseFloat() or parseInt() here because it would truncate values, and corrupt the algorithms
+
 $("#num1").keyup(function () {
     num1 = filterFloat($(this).val());
-});
-
-$("#num1").change(function () {
-    $(".numset").contents().empty();
 });
 
 $("#num2").keyup(function () {
@@ -62,10 +59,10 @@ $("#btnLeast").click(function () {
     var least = Math.min(num1, num2, num3, num4, num5, num6);
     //check if least is/is not a valid numeric value
     if (isNaN(least) == true) {
-        $(this).next().replaceWith("<p class='light-blue-font'>Oops. Every box must contain a valid number. Try again!</p>");
+        $(this).next("#numSet1").text("Oops. Every box must contain a valid number. Try again!");
     } else {
         //display lowest number
-        $(this).next().replaceWith("<p class='light-blue-font'><span class='big-white-font'>" + least + "</span> is the lowest number</p>");
+        $(this).next("#numSet1").text(least + " is the lowest number.")
     }
 });
 
@@ -76,10 +73,10 @@ $("#btnGreatest").click(function () {
     var greatest = Math.max(num1, num2, num3, num4, num5, num6);
     //check if greatest is a numeric value
     if (isNaN(greatest) == true) {
-        $(this).next().replaceWith("<p class='light-blue-font'>Oops. Every box must contain a valid number. Try again!</p>");
+        $(this).next("#numSet2").text("Oops. Every box must contain a valid number. Try again!");
     } else {
         //display highest number
-        $(this).next().replaceWith("<p class='light-blue-font'><span class='big-white-font'>" + greatest + "</span> is the highest number</p>");
+        $(this).next("#numSet2").text(greatest + " is the highest number.");
     }
 });
 
@@ -90,10 +87,10 @@ $("#btnAvg").click(function () {
     var avg = (num1 + num2 + num3 + num4 + num5 + num6) / 6;
     //check if avg is a numeric value
     if (isNaN(avg) == true) {
-        $(this).next().replaceWith("<p class='light-blue-font'>Oops. Every box must contain a valid number. Try again!</p>");
+        $(this).next("#numSet3").text("Oops. Every box must contain a valid number. Try again!");
     } else {
-        //display the average
-        $(this).next().replaceWith("<p class='light-blue-font'><span class='big-white-font'>" + avg + "</span> is the average of the set of numbers</p>");
+        //display highest number
+        $(this).next("#numSet3").text(avg + " is the average of these numbers.");
     }
 });
 
@@ -104,10 +101,10 @@ $("#btnSum").click(function () {
     var sum = num1 + num2 + num3 + num4 + num5 + num6;
     //check if sum is a numeric value
     if (isNaN(sum) == true) {
-        $(this).next().replaceWith("<p class='light-blue-font'>Oops. Every box must contain a valid number. Try again!</p>");
+        $(this).next("#numSet4").text("Oops. Every box must contain a valid number. Try again!");
     } else {
-        //display the sum
-        $(this).next().replaceWith("<p class='light-blue-font'><span class='big-white-font'>" + sum + "</span> is the sum of the set of numbers</p>");
+        //display highest number
+        $(this).next("#numSet4").text(sum + " is the sum of these numbers.");
     }
 });
 
@@ -118,10 +115,10 @@ $("#btnProduct").click(function () {
     var product = num1 * num2 * num3 * num4 * num5 * num6;
     //check if product is a numeric value
     if (isNaN(product) == true) {
-        $(this).next().replaceWith("<p class='light-blue-font'>Oops. Every box must contain a valid number. Try again!</p>");
+        $(this).next("#numSet5").text("Oops. Every box must contain a valid number. Try again!");
     } else {
-        //display the product
-        $(this).next().replaceWith("<p class='light-blue-font'><span class='big-white-font'>" + product + "</span> is the product of the set of numbers</p>");
+        //display highest number
+        $(this).next("#numSet5").text(product + " is the product of these numbers.");
     }
 });
 
@@ -138,14 +135,14 @@ $("#calcFactorial").click(function () {
     for (var c = 1; c <= userFactorial; ++c) factorial *= c;
     //check to see if userFactorial is a numeric value
     if (isNaN(userFactorial) == true) {
-        $(this).next().replaceWith("<p class='light-blue-font'>You must enter a valid numeric value. Try again.</p>");
+        $(this).next("#factorialAnswer").text("You must enter a valid numeric value. Try again.");
     } else if (userFactorial < 1 || userFactorial > 199) {
-        $(this).next().replaceWith("<p class='light-blue-font'>Please enter numeric values between 1 and 199.</p>");
+        $(this).next("#factorialAnswer").text("Please enter numeric values between 1 and 199.");
     } else if (userFactorial % 1 !== 0) {
-        $(this).next().replaceWith("<p class='light-blue-font'>Please enter only integers. Try again.</p>");
+        $(this).next("#factorialAnswer").text("Please enter only integers. Try again.");
     } else {
         //display the resulting factorial product
-        $(this).next().replaceWith("<p class='light-blue-font'>Answer: <span class='big-white-font'>" + userFactorial + " Factorial (or " + userFactorial + "!) is " + factorial + "</span></p>");
+        $(this).next("#factorialAnswer").text(userFactorial + " Factorial (or " + userFactorial + "!) is " + factorial + ".");
     }
 });
 
@@ -159,31 +156,31 @@ $("#runMultiples").click(function runMultiples() {
     //store user input from two text boxes
     var m1 = filterFloat($("#m1").val());
     var m2 = filterFloat($("#m2").val());
-    //set text in p (#numbersContainer) to be emptied
+    //set text in p (#numbersContainer) to be emptied, this is so it doesn't keep appending to the numbersContainer when you resubmit new numbers to test
     $("#numberContainer").empty();
     //check to see if m1 and m2 are both valid numeric values
     if (isNaN(m1) == true || isNaN(m2) == true) {
-        $("#numberContainer").append("<p class='light-blue-font'>You must enter two valid numeric values. Try again.</p>");
+        $("#numberContainer").append("You must enter two valid numeric values. Try again.");
     } else if (m1 < 2 || m1 > 99 || m2 < 2 || m2 > 99) {
-        $("#numberContainer").append("<p class='light-blue-font'>Both numbers must be between 2 and 99. Try again!</p>");
+        $("#numberContainer").append("Both numbers must be between 2 and 99. Try again!");
     } else {
         //iterate through numbers 1-100
         for (var c = 1; c <= 100; ++c) {
             //if remainder of counter divided by m1 equals 0, & counter divided by m2 equals 0
             if (c % m1 === 0 && c % m2 === 0) {
                 //then display "fizzbuzz"
-                $("#numberContainer").append("<span class= 'big-white-font'>   FIZZBUZZ </span>  ");
+                $("#numberContainer").append(" FIZZBUZZ ");
                 //else if remainder of counter divided by m1 equals 0
             } else if (c % m1 === 0) {
                 //then display "fizz"
-                $("#numberContainer").append("<span class= 'big-white-font'>    Fizz </span>   ");
+                $("#numberContainer").append(" Fizz ");
                 //else if remainder of counter divided by m2 equals 0
             } else if (c % m2 === 0) {
                 //then display "buzz"  
-                $("#numberContainer").append("<span class= 'big-white-font'>    Buzz </span>   ");
+                $("#numberContainer").append(" Buzz ");
                 //else display the counter number value 'c'
             } else {
-                $("#numberContainer").append("   " + c + "   ");
+                $("#numberContainer").append(" " + c + " ");
             }
         }
     }
@@ -208,14 +205,14 @@ $("#checkPalindrome").click(function () {
     reverseWord = userWord.split('').reverse().join('');
     //if reverseWord equals userWord
     if (userWord == "") {
-        $(this).next().replaceWith("<p class='light-blue-font'>You must first enter a word, phrase or sequence. Try Again.</p>");
+        $(this).next("#palindromeAnswer").text("You must first enter a word, phrase or sequence. Try Again.");
     } else if (userWord.length < 3) {
-        $(this).next().replaceWith("<p class='light-blue-font'>C'mon now, make it interesting! Try at least two characters.</p>");
+        $(this).next("#palindromeAnswer").text("Come on now, make it interesting! Try at least two characters.");
     } else if (userWord.toLowerCase() === reverseWord.toLowerCase()) {
         //display YES PALINDROME message
-        $(this).next().replaceWith("<p class='light-blue-font'><span class='big-white-font'>" + userWord + "</span> is a palindrome! Cool!</p>");
+        $(this).next("#palindromeAnswer").text(userWord + " is a palindrome!");
         //else display NO PALINDROME message 
     } else {
-        $(this).next().replaceWith("<p class='light-blue-font'><span class='big-white-font'>" + userWord + "</span> is not a palindrome because it's different when read backward. (" + reverseWord + ")</p>");
+        $(this).next("#palindromeAnswer").text(userWord + " is not a palindrome because it's different when read backward. (" + reverseWord + ")");
     }
 });
