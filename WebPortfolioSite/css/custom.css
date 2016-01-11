@@ -620,10 +620,10 @@ blockquote footer {
   background-image: 
     repeating-linear-gradient(
       45deg,
-      #444444,
-      #444444 30px,
-      #676767 60px,
-      #676767 60px /* determines size */
+      #417841,
+      #417841 30px,
+      #519451 10px,
+      #519451 60px /* determines size */
     );
    width:310px; 
    height:232.5px;
@@ -1235,7 +1235,7 @@ modal {
 	}
 
    .cs-style-4 figcaption {
-        height:247.5px;
+        height:232.5px;
     }
 	
 	section > p {
@@ -1305,8 +1305,8 @@ modal {
 	}
 
     .motion-div {
-        width: 330px;
-        height: 247.5px;
+        width: 310px;
+        height: 232.5px;
     }
 
 }
@@ -1330,7 +1330,7 @@ modal {
 	}
 
     .cs-style-4 figcaption {
-        height:247.5px;
+        height:232.5px;
     }
 }
 
@@ -1429,8 +1429,14 @@ modal {
 		width: 280px;
 	}
 
-    .cs-style-4 figcaption {
+    .cs-style-4 figcaption,
+    .cs-style-4 .item-box {
         height:180px;
+    }
+
+    .cs-style-4 .portfolio-icon {
+        top:10%;
+        left:18%;
     }
 	
 	.pricing-table {

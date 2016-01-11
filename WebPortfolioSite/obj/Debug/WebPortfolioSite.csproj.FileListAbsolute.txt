@@ -79,3 +79,4 @@ c:\users\justin\documents\visual studio 2015\Projects\WebPortfolioSite\WebPortfo
 c:\users\justin\documents\visual studio 2015\Projects\WebPortfolioSite\WebPortfolioSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 c:\users\justin\documents\visual studio 2015\Projects\WebPortfolioSite\WebPortfolioSite\obj\Debug\WebPortfolioSite.dll
 c:\users\justin\documents\visual studio 2015\Projects\WebPortfolioSite\WebPortfolioSite\obj\Debug\WebPortfolioSite.pdb
+C:\Users\Justin\Documents\Visual Studio 2015\Projects\WebPortfolioSite\WebPortfolioSite\obj\Debug\WebPortfolioSite.csprojResolveAssemblyReference.cache
