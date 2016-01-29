@@ -431,6 +431,10 @@ header {
     font-style: italic;
 }
 
+.image-bordered {
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
 
 
 /*------------------------------
@@ -714,7 +718,9 @@ blockquote footer {
 
 .contact-image {
 	width:164px;
-	padding-bottom:15px;
+    margin-bottom: 15px;
+    border: 5px solid #fff;
+    border-radius: 50%;
 }
 
 #contact .controls {
