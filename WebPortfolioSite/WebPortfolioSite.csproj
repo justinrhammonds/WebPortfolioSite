@@ -243,6 +243,7 @@
     <Content Include="image\ref4.png" />
     <Content Include="image\ref5.png" />
     <Content Include="image\ref6.png" />
+    <Content Include="image\screenshot-blog.png" />
     <Content Include="image\suzanne.png" />
     <Content Include="image\tom.png" />
     <Content Include="image\Treehouse_%28company%29_logo.svg.png" />

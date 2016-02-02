@@ -62,8 +62,8 @@
             <li><a href="#about" class="scroll">About</a></li>
             <li><a href="#resume" class="scroll">Resume</a></li>
             <li><a href="#portfolio" class="scroll">Portfolio</a></li>
-            <li><a href="http://jhammonds-blog.azurewebsites.net">Blog</a></li>
-            <li><a href="#contact" class="scroll">Contact</a></li>
+            <li><a href="https://jhammonds-blog.azurewebsites.net">Blog</a></li>
+            <li><a href="https://jhammonds-blog.azurewebsites.net/home/contact" target="_blank" class="scroll">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -135,7 +135,7 @@
               </blockquote>
             </div>
             <div class="col-12">
-              <p>Justin is a rising superstar, a full-stack web and software developer, and an all-around nice guy. He is one of those obsessive, creative types who finds significance in the smallest of details. He is always researching the newest trends, tools, and solutions to better his coding skills. You can find him somewhat rarely on twitter, even more rarely on Facebook ... so on that note, it's probably best to <a class="scroll" href="#contact">contact</a> him below.</p>
+              <p>Justin is a rising superstar, a full-stack web and software developer, and an all-around nice guy. He is one of those obsessive, creative types who finds significance in the smallest of details. He is always researching the newest trends, tools, and solutions to better his coding skills. You can find him somewhat rarely on twitter, even more rarely on Facebook ... so on that note, it's probably best to <a target="_blank" href="https://jhammonds-blog/home/contact">contact</a> him here.</p>
             </div>
           </div>
         </div>
@@ -264,7 +264,7 @@
           <a href="justin-hammonds-resume.pdf" class="btn btn-reference btn-lg scroll scrollpoint sp-effect1" id="resume-link" role="button"><i class="fa fa-file-text-o"></i> Download Resume</a>
         </div>
         <div class="col-md-offset-2">
-          <a href="https://github.com/justinrhammonds" class="btn btn-reference btn-lg scroll scrollpoint sp-effect2" id="github-link" role="button"><i class="fa fa-github"></i> View GitHub</a>
+          <a href="https://github.com/justinrhammonds" class="btn btn-reference btn-lg scroll scrollpoint sp-effect2  github-link" role="button"><i class="fa fa-github"></i> View GitHub</a>
         </div>
       </div>
 
@@ -368,7 +368,7 @@
           <figure class="scrollpoint sp-effect2 portfoliofigure">
             <div class="motion-div"><i class="fa fa-car portfolio-icon"></i></div>
             <figcaption>
-              <h3>Car Finder App</h3>
+              <h3>CarFinder Web API</h3>
             </figcaption>
             <a href="" class="btn btn-reference btn-sm scroll" role="button" data-toggle="modal" data-target="#CarFinder">See More</a>
           </figure>
@@ -380,7 +380,7 @@
           <figure class="scrollpoint sp-effect1  portfoliofigure">
             <div class="motion-div"><i class="fa fa-comments portfolio-icon"></i></div>
             <figcaption>
-              <h3>Blog App</h3>
+              <h3>Blog Application</h3>
             </figcaption>
             <a href="" class="btn btn-reference btn-sm scroll" role="button" data-toggle="modal" data-target="#BlogApp">See More</a>
           </figure>
@@ -918,7 +918,7 @@ $("#checkPalindrome").click(function () {
                 <li>jQuery</li>
                 <li>Bootstrap</li>               
               </ul>
-              <a href="https://github.com/justinrhammonds/WebPortfolioSite" target="_blank" class="btn btn-reference btn-sm" id="github-link" role="button"><i class="fa fa-github"></i> View on GitHub</a>
+              <a href="https://github.com/justinrhammonds/WebPortfolioSite" target="_blank" class="btn btn-reference btn-sm github-link" role="button"><i class="fa fa-github"></i> View on GitHub</a>
             </div>
           </div>
         </div><!-- Modal Body end -->
@@ -940,7 +940,7 @@ $("#checkPalindrome").click(function () {
         <!-- Modal Header start -->
         <div class="modal-header container-fluid" id="CarFinder-header">
           <div class="row">
-            <h4 class="modal-title col-md-12" id="gridModalLabel">Car Finder App</h4>
+            <h4 class="modal-title col-md-12" id="gridModalLabel">CarFinder Web API</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           </div>
         </div><!-- Modal Header end -->
@@ -958,14 +958,14 @@ $("#checkPalindrome").click(function () {
                 <li>JavaScript</li>
                 <li>ASP.NET/C#</li>
                 <li>SQLServer/T-SQL</li>
-                <li>JavaScript</li>
                 <li>Bootstrap</li>
+                <li>jQuery</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
 
               </ul>
-              <a href="https://github.com/justinrhammonds/CarFinder" target="_blank" class="btn btn-reference btn-sm" id="github-link" role="button"><i class="fa fa-github"></i> View on GitHub</a>
-              <a href="https://jhammonds-carfinder.azurewebsites.net" target="_blank" class="btn btn-reference btn-sm" id="github-link" role="button"> View Website</a>
+              <a href="https://github.com/justinrhammonds/CarFinder" target="_blank" class="btn btn-reference btn-sm github-link" role="button"><i class="fa fa-github"></i> View on GitHub</a>
+              <a href="https://jhammonds-carfinder.azurewebsites.net" target="_blank" class="btn btn-reference btn-sm  github-link" role="button"> View Website</a>
             </div>
           </div>
         </div><!-- Modal Body end -->
@@ -982,21 +982,44 @@ $("#checkPalindrome").click(function () {
     MODAL - BlogApp - START
   =========================== -->
 
-  <div class="modal fade" id="BlogApp" tabindex="-1" role="dialog" aria-labelledby="PortfolioSite" aria-hidden="true">
+  <div class="modal fade" id="BlogApp" tabindex="-1" role="dialog" aria-labelledby="BlogApp" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <!-- Modal Header start -->
         <div class="modal-header container-fluid" id="BlogApp-header">
           <div class="row">
-            <h4 class="modal-title col-md-12" id="gridModalLabel">Blog App</h4>
+            <h4 class="modal-title col-md-12" id="gridModalLabel">Blog Application</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           </div>
         </div><!-- Modal Header end -->
         <!-- Modal Body start -->
         <div class="modal-body" id="BlogApp-body">
-          <p class="small-white-font">Coming Soon... just wait and see!</p>
-        </div><!-- Modal Body end -->
-      </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img class="screenshot" src="image/screenshot-blog.png" />
+            </div>
+            <div class="col-md-6 small-white-font">
+              <p>
+                This blog was built using MVC and the Razor Engine on the ASP.NET framework.The database was constructed through Code First migrations with LINQ on the Entity framework.User Authentication was further customized by adding third-party login functionality. The Front End of the application was designed using the Bootstrap framework.
+              </p>
+              <p>This project is built with:</p>
+              <ul>
+                <li>MVC</li>
+                <li>Razor Engine</li>
+                <li>ASP.NET</li>
+                <li>LINQ</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+                <li>JavaScript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
+              <a href="https://github.com/justinrhammonds/blog" target="_blank" class="btn btn-reference btn-sm github-link" role="button"><i class="fa fa-github"></i> View on GitHub</a>
+              <a href="https://jhammonds-blog.azurewebsites.net" target="_blank" class="btn btn-reference btn-sm github-link" role="button"> View Website</a>
+              </div>
+            </div>
+          </div><!-- Modal Body end -->
+        </div>
     </div>
   </div>
 
