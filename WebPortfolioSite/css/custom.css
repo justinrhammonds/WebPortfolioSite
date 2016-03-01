@@ -1110,6 +1110,10 @@ modal {
 	.navbar-collapse {
 		box-shadow:none;
 	}
+
+    #timeline {
+        display:none;
+    }
 	
 	.navbar-default {	
 		height:58px;

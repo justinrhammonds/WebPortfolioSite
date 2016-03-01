@@ -220,6 +220,7 @@
     <Content Include="css\vertical-carousel.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="image\Asu_blocka_logo.png" />
+    <Content Include="image\budget-screenshot.png" />
     <Content Include="image\carfinderapp.png" />
     <Content Include="image\coderfoundry-logo.png" />
     <Content Include="favicon-teal.ico" />
