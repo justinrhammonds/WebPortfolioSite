@@ -162,7 +162,3 @@ $("#checkPalindrome").click(function () {
         $(this).next().replaceWith("<p class='light-blue'>" + userWord + " is not a palindrome because it is not spelled the same forwards and backwards (" + reverseWord + ")</p>");
     }
 });
-
-
-
-//////////////////////////////////////////////////////
